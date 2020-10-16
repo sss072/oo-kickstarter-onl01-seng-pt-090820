@@ -6,4 +6,7 @@ class Project
     @title = title
     @backers = []
   end 
+  def add_backer(backer_given)
+    @backers << self 
+  end 
 end 
